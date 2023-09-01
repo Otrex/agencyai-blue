@@ -1,0 +1,42 @@
+<svg width="475" height="106" viewBox="0 0 475 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="400" y="8" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="417.298" y="8" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="434.597" y="8" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="451.895" y="8" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="469.193" y="8" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="400" y="23.2983" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="417.298" y="23.2983" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="434.597" y="23.2983" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="451.895" y="23.2983" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="469.193" y="23.2983" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="400" y="38.5966" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="417.298" y="38.5966" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="434.597" y="38.5966" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="451.895" y="38.5966" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="469.193" y="38.5966" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="400" y="53.8949" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="417.298" y="53.8949" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="434.597" y="53.8949" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="451.895" y="53.8949" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="469.193" y="53.8949" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="400" y="69.1932" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="417.298" y="69.1932" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="434.597" y="69.1932" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="451.895" y="69.1932" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<rect x="469.193" y="69.1932" width="5.2983" height="5.2983" rx="2.64915" fill="#FFB01F"/>
+<g filter="url(#filter0_b_669_3177)">
+<circle cx="52.6864" cy="53.1803" r="52.475" fill="url(#paint0_radial_669_3177)" fill-opacity="0.6"/>
+</g>
+<defs>
+<filter id="filter0_b_669_3177" x="-17.7886" y="-17.2947" width="140.95" height="140.95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="9"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_669_3177"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_669_3177" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_669_3177" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(61.6551 26.6259) rotate(98.9468) scale(57.6703)">
+<stop stop-color="#FFB020"/>
+<stop offset="1" stop-color="#FC9801"/>
+</radialGradient>
+</defs>
+</svg>

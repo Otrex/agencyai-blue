@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+
+  /* SIZES */
+  --size-0: 1.6rem;
+  --size-10: 1.8rem;
+  --size-20: 2rem;
+  --size-30: 2.2rem;
+  --size-40: 2.4rem;
+  --size-50: 2.6rem;
+  --size-60: 2.8rem;
+  --size-70: 3rem;
+  --size-80: 3.2rem;
+  --size-90: 3.4rem;
+  --size-100: 3.6rem;
+  --size-110: 3.8rem;
+  --size-120: 4rem;
+  --size-130: 4.2rem;
+  --size-140: 4.4rem;
+  --size-150: 4.6rem;
+  --size-160: 4.8rem;
+  --size-170: 5rem;
+  --size-180: 5.2rem;
+  --size-190: 5.4rem;
+  --size-200: 5.6rem;
+  --size-210: 5.8rem;
+  --size-220: 6rem;
+  --size-230: 6.2rem;
+  --size-240: 6.4rem;
+  --size-250: 6.6rem;
+
+  --black-alpha: #00000047;
+  /* COLORS */
+  --grey-0: #fff;
+  --grey-50: #D9D9D9;
+  --grey-60: #FBFBFB;
+  --grey-90: #232323;
+  --grey-100: #000;
+  --blue-0: #F0F3FF;
+  --blue-100: #3B57F4;
+
+  --orange-100: #FD9C06;
+  --accent-100: #3B57F4;
+  --accent-200: #3B57F4;
+}
+
+.text-black {
+  color: #232323;
+}
+[dev] *, [dev] {
+  outline: 1px solid rgba(255, 0, 0, .3);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-size: 9.5px;
+  color: var(--grey-90);
+}
+
+h1 {
+  color: var(--accent-200);
+  font-size: var(--size-220);
+  line-height: var(--size-250);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--size-190);
+  line-height: var(--size-190);
+  font-weight: 700;
+  color: var(--accent-200);
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: var(--size-180);
+    line-height: var(--size-180);
+    font-weight: 700;
+    color: var(--accent-200);
+  }
+}
+
+
+h3 {
+  color: var(--accent-200);
+  font-size: var(--size-110);
+  line-height: var(--size-150);
+  font-weight: 700;
+}
+
+body {
+  font-size: var(--size-0);
+  width: 100%;
+}
+
+@media screen and (max-width: 40rem) {
+  html {
+    font-size: 8px;
+  }
+}
+p.md {
+  font-size: var(--size-40);
+}
+p.lg {
+  font-size: var(--size-60);
+}
+.b-wrapper {
+  max-width: 130rem;
+  @apply px-[5rem];
+  margin: auto;
+}
+
+.b-force div, .b-force span {
+  @apply !bg-transparent;
+}
+
+.b-force input[type="submit"] {
+  @apply !bg-[white] !text-[--accent-100] !px-[3rem] !py-[1.8rem] !h-auto;
+}
+.b-btn, .b-force input[type="button"], .b-force input[type="submit"] {
+  @apply !rounded-[10rem] !inline-block;
+}
+
+.b-btn.accent, .b-force input[type="button"].accent, .b-force input[type="submit"].accent {
+ @apply !bg-[--accent-100] !text-white;
+}
+
+.font-jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.b-btn.sm {
+  @apply px-[2.4rem] py-[1.3rem];
+}
+.b-btn.md, .b-force input[type="button"].md, .b-force input[type="submit"].md {
+  @apply !px-[3rem] !py-[1.8rem];
+  font-size: var(--size-20) !important;
+}
+.b-nav-item {
+  @apply px-[1rem] py-[.8rem];
+}
+
+.b-nav-item:hover {
+  @apply text-[color:var(--accent-100)];
+}
+.b-input, .b-force input[type="text"], .b-force input[type="email"] {
+  @apply !bg-[--black-alpha] placeholder:!text-white !border !border-[--black-alpha] !w-full !border-solid !rounded-[10rem];
+  @apply !px-[3rem] !py-[1.9rem];
+}
+.b-st::after {
+  content: " ";
+  display: block;
+  @apply absolute z-[-1] rounded-[2.8rem] top-[-2.5rem] right-[-2.5rem] w-[33rem] aspect-square;
+  @apply bg-[--accent-100];
+}
+.b-st2 {
+  @apply relative sm:absolute z-0 mt-[6rem];
+}
+.b-st2::before, .b-st2::after {
+  background: rgba(255, 195, 191, 0.4);
+  content: " ";
+  display: block;
+  
+  width: 100%;
+  @apply absolute h-[100%] rounded-tr-[3.8rem] aspect-square z-[-1];
+}
+
+.b-st2::before {
+  @apply left-[-3rem] top-[-3rem] ;
+}
+.b-st2::after {
+  @apply left-[-6rem] top-[-6rem];
+}
+
+.b-ch:checked ~ div {
+  transition: .5s all;
+  @apply bg-red-500 right-0;
+}
+.b-ch ~ div {
+  transition: .5s all;
+  @apply right-[-100%]
+}
