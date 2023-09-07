@@ -34,7 +34,7 @@ onBeforeMount(async () => {
     const [subdomain,_] = window.location.host.split(".");
     console.table({subdomain});
     
-    const request = await fetch(`${config.public.baseURL}/d/${subdomain.split("-").at(-1)}/wizard`);
+    const request = await fetch(`${config.public.baseURL}/d/wizards/${subdomain.split("-").at(-1)}`);
     data.value = await request.json();
     if (route.query.preview === "true") {
       previewMode.value = true;
