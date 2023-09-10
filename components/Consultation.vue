@@ -5,7 +5,7 @@
     <div class="w-full flex-col sm:flex-row !text-white rounded-[3.6rem] mx-auto bg-[--accent-100] flex gap-[3rem]">
       <div class="w-full">
         <div class="rounded-l-[3.6rem] h-full overflow-hidden">
-          <img :src="image" class="w-full h-full object-fill" />
+          <img :src="image" class="w-full h-full object-cover" />
         </div>
       </div>
 
