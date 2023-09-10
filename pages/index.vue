@@ -53,6 +53,13 @@ useHead(() => ({
       rel: "icon",
     },
   ],
+  script: [
+    {
+      innerHTML:
+        data.value?.agency_wizard.website_details.customJavascript || "null",
+      type: "text/javascript",
+    },
+  ],
 }));
 </script>
 <style scoped>
