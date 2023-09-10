@@ -1,5 +1,5 @@
 <template> 
-  <div class="bg-[#F0F3FF] text-black py-[10rem]">
+  <div id="services" class="bg-[#F0F3FF] text-black py-[10rem]">
     <div class="b-wrapper">
       <h2 class=" text-center mb-[8rem] text-black">Our Services</h2>
 

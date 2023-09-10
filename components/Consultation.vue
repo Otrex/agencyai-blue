@@ -1,5 +1,5 @@
 <template> 
-<div class="relative"> 
+<div id="consult" class="relative"> 
   <div class="w-full absolute h-[50%] bg-[#F0F3FF] z-[-1]">&nbsp;</div>
   <div class="py-[10rem] b-wrapper"> 
     <div class="w-full flex-col sm:flex-row !text-white rounded-[3.6rem] mx-auto bg-[--accent-100] flex gap-[3rem]">

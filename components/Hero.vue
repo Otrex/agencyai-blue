@@ -1,5 +1,5 @@
 <template> 
-<div class="bg-[#F0F3FF]"> 
+<div id="hero" class="bg-[#F0F3FF]"> 
 
 <div class="b-wrapper "> 
   <div class="pt-[12rem]"> 

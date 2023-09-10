@@ -1,5 +1,5 @@
 <template> 
-<div> 
+<div id="help"> 
   <div class="b-wrapper py-[5rem] pb-[10rem]">
     <h2 class="text-center mb-[12rem] text-black">How Can We <span class="text-[--accent-100]">Help</span> You?</h2>
 

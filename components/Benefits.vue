@@ -1,5 +1,5 @@
 <template> 
-  <div class="py-[17rem] text-black">
+  <div id="benefits" class="py-[17rem] text-black">
     <div class="b-wrapper">
       <h2 class="max-w-[73rem] mb-[8rem] text-black m-auto text-center">Benefits of {{agencyName}} Services</h2>
       <div class=""> 

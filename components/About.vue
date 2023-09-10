@@ -1,5 +1,5 @@
 <template> 
-  <div class="py-[10rem] overflow-hidden"> 
+  <div id="about" class="py-[10rem] overflow-hidden"> 
     <section class="flex sm:flex-row flex-col relative gap-[4rem] b-wrapper "> 
       <div class="w-full h-full pt-[7rem]">
         <div class="rounded-[2rem] relative w-full"> 
@@ -23,7 +23,7 @@
           
           <div v-html="about.description" ></div>
           <div class="mt-[6rem]"> 
-            <a class="b-btn md accent">Contact Us</a>
+            <a href="#consult" class="b-btn md accent">Contact Us</a>
           </div>
         </div>
       </div>
