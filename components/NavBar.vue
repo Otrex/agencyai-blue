@@ -4,7 +4,7 @@
       <div class="flex b-wrapper justify-between">
         <div class="flex items-center">
           <div class="max-w-[18rem] max-h-[5rem]"> 
-            <img src="/img/logo.svg" class="w-full h-full object-cover" />
+            <img :src="logo" class="w-full h-full object-cover" />
           </div>
         </div>
         <div class="sm:flex hidden items-center">
@@ -43,7 +43,9 @@
 
 <script setup lang="ts"> 
 import { WizardResponse } from '~/type';
-defineProps<{ data?: WizardResponse}>()
+const props = defineProps<{ data?: WizardResponse }>()
+
+const logo = computed(() => props.data?.agency_wizard.website_details.logo || '/img/logo.svg');
 </script>
 
 <style> 
