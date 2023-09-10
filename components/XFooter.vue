@@ -8,7 +8,7 @@
       </div>
       <div class="w-full">
         <p class="text-[#626262] mb-[1rem]">Address:</p>
-        <p class="font-semibold">{{ footer.address }}</p>
+        <p class="font-semibold" v-html="footer.address"></p>
       </div>
       <div class="w-full">
         <div class="w-full mb-[1rem]">
@@ -94,11 +94,11 @@ import { WizardResponse } from '~/type';
 const props = defineProps<{ data?: WizardResponse }>();
 const agencyName = computed(() => props.data?.agency_wizard.website_details.agencyName || "AgencyAI")
 
-const logo = computed(() => props.data?.agency_wizard.website_details.logo || '/img/logo.svg');
+const logo = computed(() => props.data?.agency_wizard.logo_light || '/img/logo.svg');
 const footer = computed(() => {
   const address = props.data?.agency_wizard.contact.address.address1 || props.data?.agency_wizard.contact.address.address2 || "48180, Eureka Rd, Taylor, Michigan, USA";
   const city = props.data?.agency_wizard.contact.address.city || "City";
-  const phone = props.data?.agency_wizard.contact.address.phone || "(734) 287-6619"
+  const phone = props.data?.agency_wizard.phone_number|| "(734) 287-6619"
   const email = props.data?.agency_wizard.contact.address.email || "info@agency.com"
   const linkedin = props.data?.agency_wizard.contact.socials.linkedin || "#";
   const facebook = props.data?.agency_wizard.contact.socials.facebook || "#";

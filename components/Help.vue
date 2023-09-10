@@ -9,7 +9,7 @@
           <h3 class="mb-[4rem]">{{ help.title }}</h3>
           <div v-html="help.description"></div>
           <div class="mt-[6rem]"> 
-            <a class="b-btn md accent">Contact Us</a>
+            <a href="#consult" class="b-btn md accent">Contact Us</a>
           </div>
         </div>
       </div>

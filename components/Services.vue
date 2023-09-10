@@ -20,7 +20,7 @@
       </div>
 
       <div class="text-center mt-[6rem]"> 
-        <a class="b-btn md !bg-[#FD9C06] font-semibold text-black">Contact Us</a>
+        <a class="b-btn md !bg-[#FD9C06] font-semibold text-black" href="#consult">Contact Us</a>
       </div>
     </div>
   </div>
